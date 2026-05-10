@@ -9,7 +9,7 @@ Popíšte, na akej množine môže byť definovaná a ktoré z nasledujúcich vl
 
 **2.** Dokážte, že spojnice bodov, ktoré vyznačujú na ciferníku hodiniek čísla 11,3 a 2,6 sú na seba kolmé.
 
-**3.** Je daná postupnosť $\backslash left\backslash {\backslash frac{\backslash operatorname{n}}{n+3}\backslash right\backslash }_{n=1}^\backslash infty$
+**3.** Je daná postupnosť $\left\{\frac{\operatorname{n}}{n+3}\right\}_{n=1}^\infty$
 
 * zistite či je daná postupnosť ohraničená
 * vyjadrite túto postupnosť rekurentne. Existuje aj iné rekurentné určenie danej postupnosti?
@@ -28,9 +28,8 @@ Popíšte, na akej množine môže byť definovaná a ktoré z nasledujúcich vl
 **3.** Daná je funkcia $f:y={-x}^2+4x-3$
 
 * načrtnite grafy funkcií $f(x),|f(x)|$
-* 
-* 
-
+* určte pre všetky $r\in R$ , pre ktoré má rovnica $|f(x)| = r$ práve 4 riešenia
+* ako je potrebné zmeniť číslo -3 v predpise funkcie $f$, aby graf funkcie prechádzal bodom $[0;2]$
 ## Maturitné zadanie 03
 **1.** Vysvetlite pojem funkcia, definičný obor, obor hodnôt, graf funkcie. Vymenujte a na grafoch ukážte základné vlastnosti funkcií (párnosť/nepárnosť, monotónnosť, ohraničenosť, extrémy, periodicita).
 
