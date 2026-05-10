@@ -3,18 +3,33 @@
 ---
 
 ## Maturitné zadanie 01
-**1.** Objasnite pojmy: množina, prvok množiny, spôsoby určenia množín. Definujte základné vlastnosti množín (rovnosť, inklúzia) a základné operácie s množinami – zjednotenie, prienik, rozdiel a doplnok. Ukážte na konkrétnom príklade. Vysvetlite pojem interval a spôsoby jeho znázornenia.
+**1.** Definujte kvadratickú funkciu.
 
-**2.** Dokážte, že v každom pravouhlom trojuholníku platí Pytagorova veta.
+Popíšte, na akej množine môže byť definovaná a ktoré z nasledujúcich vlastností môže kvadratická funkcia spĺňať: je prostá, monotónna, má maximum, alebo minimum, je ohraničená, párna alebo nepárna?
 
-**3.** Riešte rovnicu/nerovnicu **`[DOPLŇ ROVNICU]`** v obore reálnych čísel a urobte skúšku správnosti.
+**2.** Dokážte, že spojnice bodov, ktoré vyznačujú na ciferníku hodiniek čísla 11,3 a 2,6 sú na seba kolmé.
+
+**3.** Je daná postupnosť $\left\{ \frac{n}{n+3} \right\}_{n=1}^{\infty}$
+
+* zistite či je daná postupnosť ohraničená
+* vyjadrite túto postupnosť rekurentne. Existuje aj iné rekurentné určenie danej postupnosti?
 
 ## Maturitné zadanie 02
-**1.** Definujte pojmy: výrok, pravdivostná hodnota, negácia výroku. Vysvetlite logické spojky a operácie (konjunkcia, disjunkcia, implikácia, ekvivalencia) a zostavte ich pravdivostné tabuľky.
+**1.** Definujte základné pojmy štatistiky: štatistický súbor, štatistický znak, absolútna a relatívna početnosť, modus, medián, rozptyl a diagram. Vysvetlite na príkladoch.
 
-**2.** Dokážte sporom, že číslo $\sqrt{2}$ je iracionálne.
+* Konkrétna pomôcka: Diagramy
 
-**3.** Vypočítajte objem a povrch telesa **`[DOPLŇ TELESÁ A ROZMERY]`**. 
+**2.** Využitím vlastností súhlasných, striedavých alebo vrcholových uhlov dokážte, že:
+
+* súčet veľkostí vnútorných uhlov trojuholníka je 180°
+* trojuholník MBC je rovnoramenný, pričom bod M je priesečník priamky AB a rovnobežky s osou uhla β vedenej vrcholom C v ľubovolnom trojuholníku ABC
+
+
+**3.** Daná je funkcia $f:y={-x}^2+4x-3$
+
+* načrtnite grafy funkcií $f(x),|f(x)|$
+* 
+* 
 
 ## Maturitné zadanie 03
 **1.** Vysvetlite pojem funkcia, definičný obor, obor hodnôt, graf funkcie. Vymenujte a na grafoch ukážte základné vlastnosti funkcií (párnosť/nepárnosť, monotónnosť, ohraničenosť, extrémy, periodicita).
