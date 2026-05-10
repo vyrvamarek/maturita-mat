@@ -31,19 +31,27 @@ Popíšte, na akej množine môže byť definovaná a ktoré z nasledujúcich vl
 * určte pre všetky $r\in R$ , pre ktoré má rovnica $|f(x)| = r$ práve 4 riešenia
 * ako je potrebné zmeniť číslo -3 v predpise funkcie $f$, aby graf funkcie prechádzal bodom $[0;2]$
 ## Maturitné zadanie 03
-**1.** Vysvetlite pojem funkcia, definičný obor, obor hodnôt, graf funkcie. Vymenujte a na grafoch ukážte základné vlastnosti funkcií (párnosť/nepárnosť, monotónnosť, ohraničenosť, extrémy, periodicita).
+**1.** Definujte pojem pravdepodobnosti náhodného javu, uveďte základné vlastnosti. Objasnite pojmy doplnková pravdepodobnosť a nezávislé javy. Ilustrujte na jednoduchých príkladoch (napr. hod kockou).
 
-**2.** Dokážte, že funkcia $f: y =$ **`[DOPLŇ ROVNICU]`** je rastúca/klesajúca na celom svojom definičnom obore.
+**2.** Dokážte Euklidovu vetu o odvesne
 
-**3.** Zostrojte trojuholník ABC, ak je dané: **`[DOPLŇ STRANY/UHLY/ŤAŽNICE]`**. Uveďte rozbor, postup konštrukcie a počet riešení.
+**3.** Určte definičný obor nasledujúcich funkcií:
+* $f:y=\sqrt{\frac{(2-x)(x+3)}{4x}}$
+* $g:y=\frac{1}{\cos x}$
+* $h:y=\sqrt{\log x}$
 
+ uveďte ako sa zmení $D(h)$, ak predpis funkcie $h$ upravíme naslednovne:
+* $h:y=\log\sqrt{x}$
 ## Maturitné zadanie 04
-**1.** Definujte lineárnu funkciu a kvadratickú funkciu. Popíšte ich vlastnosti, tvar grafu a vplyv koeficientov na priebeh grafu.
+**1.** Definujte pojmy variácie s opakovaním a bez opakovania, permutácie, faktoriál. Vysvetlite použitie kombinatorického pravidla súčtu a súčinu.
 
-**2.** Dokážte platnosť vzťahu **`[DOPLŇ GONIOMETRICKÝ ALEBO ALGEBRAICKÝ VZŤAH]`**.
+**2.** Odvoďte vzorec $S=\frac{a.b.\sin γ}{2}$ na výpočet obsahu ľubovoľného trojuholníka.
 
-**3.** Vypočítajte vzdialenosť bodu $A$ **`[DOPLŇ SÚRADNICE]`** od priamky $p$: **`[DOPLŇ ROVNICU PRIAMKY]`**.
+**3.** Ak pripočítam k číslam $-6, 2, 26$ to isté číslo $k$, dostanem prvé tri členy geometrickej postupnosti.
 
+Určte toto číslo $k$, prvý člen získanej postupnosti a jej kvocient.
+
+Aké číslo $k$ musím pripočítať k daným číslam, ak chcem získať aritmetickú postupnosť?
 ## Maturitné zadanie 05
 **1.** Definujte goniometrické funkcie sínus a kosínus pomocou jednotkovej kružnice. Popíšte ich základné vlastnosti a načrtnite ich grafy.
 
