@@ -9,7 +9,7 @@ Popíšte, na akej množine môže byť definovaná a ktoré z nasledujúcich vl
 
 **2.** Dokážte, že spojnice bodov, ktoré vyznačujú na ciferníku hodiniek čísla 11,3 a 2,6 sú na seba kolmé.
 
-**3.** Je daná postupnosť $\left\{ \frac{n}{n+3} \right\}_{n=1}^{\infty}$
+**3.** Je daná postupnosť $\backslash left\backslash {\backslash frac{\backslash operatorname{n}}{n+3}\backslash right\backslash }_{n=1}^\backslash infty$
 
 * zistite či je daná postupnosť ohraničená
 * vyjadrite túto postupnosť rekurentne. Existuje aj iné rekurentné určenie danej postupnosti?
