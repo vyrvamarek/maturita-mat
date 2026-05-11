@@ -3,18 +3,20 @@
 ---
 
 ## Maturitné zadanie 01
+
 **1.** Definujte kvadratickú funkciu.
 
 Popíšte, na akej množine môže byť definovaná a ktoré z nasledujúcich vlastností môže kvadratická funkcia spĺňať: je prostá, monotónna, má maximum, alebo minimum, je ohraničená, párna alebo nepárna?
 
 **2.** Dokážte, že spojnice bodov, ktoré vyznačujú na ciferníku hodiniek čísla 11,3 a 2,6 sú na seba kolmé.
 
-**3.** Je daná postupnosť $\left\{\frac{\operatorname{n}}{n+3}\right\}_{n=1}^\infty$
+**3.** Je daná postupnosť $$\left\{\frac{\operatorname{n}}{n+3}\right\}_{n=1}^\infty$$
 
 * zistite či je daná postupnosť ohraničená
 * vyjadrite túto postupnosť rekurentne. Existuje aj iné rekurentné určenie danej postupnosti?
 
 ## Maturitné zadanie 02
+
 **1.** Definujte základné pojmy štatistiky: štatistický súbor, štatistický znak, absolútna a relatívna početnosť, modus, medián, rozptyl a diagram. Vysvetlite na príkladoch.
 
 * Konkrétna pomôcka: Diagramy
@@ -25,13 +27,13 @@ Popíšte, na akej množine môže byť definovaná a ktoré z nasledujúcich vl
 * trojuholník MBC je rovnoramenný, pričom bod M je priesečník priamky AB a rovnobežky s osou uhla β vedenej vrcholom C v ľubovolnom trojuholníku ABC
 
 
-**3.** Daná je funkcia $f:y={-x}^2+4x-3$
-
+**3.** Daná je funkcia $$f:y={-x}^2+4x-3$$
 * načrtnite grafy funkcií $f(x),|f(x)|$
 * určte pre všetky $r\in R$ , pre ktoré má rovnica $|f(x)| = r$ práve 4 riešenia
 * ako je potrebné zmeniť číslo -3 v predpise funkcie $f$, aby graf funkcie prechádzal bodom $[0;2]$
 
 ## Maturitné zadanie 03
+
 **1.** Definujte pojem pravdepodobnosti náhodného javu, uveďte základné vlastnosti. Objasnite pojmy doplnková pravdepodobnosť a nezávislé javy. Ilustrujte na jednoduchých príkladoch (napr. hod kockou).
 
 **2.** Dokážte Euklidovu vetu o odvesne
@@ -45,6 +47,7 @@ Popíšte, na akej množine môže byť definovaná a ktoré z nasledujúcich vl
 * $h:y=\log \sqrt{x}$
 
 ## Maturitné zadanie 04
+
 **1.** Definujte pojmy variácie s opakovaním a bez opakovania, permutácie, faktoriál. Vysvetlite použitie kombinatorického pravidla súčtu a súčinu.
 
 **2.** Odvoďte vzorec $S=\frac{a.b.\sin γ}{2}$ na výpočet obsahu ľubovoľného trojuholníka.
@@ -56,15 +59,17 @@ Určte toto číslo $k$, prvý člen získanej postupnosti a jej kvocient.
 Aké číslo $k$ musím pripočítať k daným číslam, ak chcem získať aritmetickú postupnosť?
 
 ## Maturitné zadanie 05
+
 **1.** Definujte kombinácie - vysvetlite na konkrétnom príklade. Definujte kombinačné číslo a jeho vlastnosti. Pascalov trojuholník.
 
 **2.** Dokážte, že v ľubovoľnom trojuholníku ťažisko rozdeľuje ťažnicu v pomere $2:1$.
 
-**3.** Vypočítajte prieniky s osami a načrtnite graf funkcie $f:y=(\frac{1}{3})^{x-2}-1$
-
+**3.** Vypočítajte prieniky s osami a načrtnite graf funkcie 
+$$f:y=(\frac{1}{3})^{x-2}-1$$
 Určte všetky $r\in R$, pre ktoré má rovnica $|f(x)|=r$ práve 2 riešenia. Ako je potrebné zmeniť číslo -1 v predpise funkcie, aby graf funkcie f nepretínal x-ovú os?
 
 ## Maturitné zadanie 06
+
 **1.** Analyticky vyjadrite priamku v rovine (aspoň 2 rôznymi spôsobmi) a klasifikujte vzájomnú polohu dvoch priamok v rovine.
 
 **2.** Zostrojte všetky trojuholníky ABC, v ktorých $|AB|:|AC|=3:4$  $t_{a}=6cm$ a $α=50°$
@@ -76,6 +81,7 @@ Potom graficky určte všetky $x\in D(f)$, pre ktoré $f(x)\in (1;5\rangle$
 Zmeňte predpis funkcie $f$ tak, aby graf funkcie mal spolocčný bod s osou y.
 
 ## Maturitné zadanie 07
+
 **1.** Definujte a nakreslite množiny bodov s danou vlastnosťou:
 - os úsečky
 - os uhla
@@ -94,6 +100,7 @@ Vypočítajte veľkosť ťažnice na stranu a.
 Ako by sa mali zmeniť súradnice bodu $C$, aby dané body ležali na jednej priamke?
 
 ## Maturitné zadanie 08
+
 **1.** Definujte lineárnu funkciu. Popíšte, na akej množine môže byť definovaná a ktoré z nasledujúcich vlastností môže lineárna funkcia spĺňať: je prostá, párna, monotónna, má maximum, alebo minimum, je ohraničená? 
 
 Daná je funkcia $f:y=-2x+3;x\in (-7;3\rangle$
@@ -107,6 +114,7 @@ Určte $D(f),H(f)$ a popíšte, ktoré z hore uvedených vlastností funkcia 
 Ako treba zmeniť y-ovú súradnicu bodu $C$, aby trojuholník $ABC$ bol pravouhlý s pravým uhlom pri vrchole $B$?
 
 ## Maturitné zadanie 09
+
 **1.** Objasnite pojem funkcia. Vysvetlite pojmy definičný obor a obor hodnôt funkcie. Popíšte vlastnosti funkcií, ktoré poznáte. Ilustrujte na konkrétnom príklade.
 
 _Konkrétna pomôcka: Obrázky rôznych grafov_
@@ -120,6 +128,7 @@ Zmeňte číslo $-3$ v predpise kružnice tak, aby nebol vyjadrením kružnice
 Ako sa zmení ich vzájomná poloha, ak bude mať priamka rovnicu $x-y-9=0$?
 
 ## Maturitné zadanie 10
+
 **1.** Klasifikujte hranaté a rotačné telesá. Ich vlastnosti opíšte na konkrétnych príkladoch (napríklad pravidelný 6-boký hranol, ihlan a rotačný valec).
 
 _Konkrétne pomôcky: modely rôznych telies._
@@ -134,6 +143,7 @@ _Konkrétne pomôcky: modely rôznych telies._
 Ako sa zmení riešenie nerovnice, ak znak nerovnosti zmeníme na "menší ako nula"?
 
 ## Maturitné zadanie 11
+
 **1.** Objasnite pojmy vektor, umiestnenie vektora, súradnice vektora a jeho veľkosť, opačný vektor k danému, súčet a rozdiel dvoch vektorov, násobok vektora reálnym číslom.
 
 **2.** Odvoďte vzorec pre výpočet obsahu
@@ -145,6 +155,7 @@ Ako sa zmení riešenie nerovnice, ak znak nerovnosti zmeníme na "menší ako n
 Načrtnite grafy funkcií $f(x),|f(x)|$. Napíšte predpis funkcie $g$, ktorej $D(g)=D(f)$ a ktorej graf je rovnobežný s funkciou $f$ a prechádza začiatkom súradnicovej sústavy.
 
 ## Maturitné zadanie 12
+
 **1.** Klasifikujte vzájomnú polohu dvoch priamok, dvoch rovín a priamky a roviny v priestore, podľa počtu spoločných bodov.
 
 **2.** Do vnútra štvorca $ABCD$ so stranou dlhou $6 cm$ umiestnite bod $P$ tak, že $|AP|=3 cm$ a $|BP|=4 cm$. Zostrojte rovnostranný trojuholník $PQR$ tak, aby vrcholy $Q,R$ ležali na obvode štvorca $ABCD$.
@@ -154,6 +165,7 @@ Načrtnite grafy funkcií $f(x),|f(x)|$. Napíšte predpis funkcie $g$, ktorej
 Ako je potrebné zmeniť číslo $2$ v predpise funkcie $f$, aby graf funkcie prechádzal bodom A so súradnicami $[0;0]$?
 
 ## Maturitné zadanie 13
+
 **1.** Definujte mocninovú funkciu. Klasifikujte typy mocninových funkcií podľa mocniteľa – ilustrujte na grafoch.
 
 Daná je funkcia $f:y=x^{10}$$.
@@ -169,6 +181,7 @@ Koľko si nadíde lodivod prvého člnu, ak sa k druhému nepriplaví priamo, al
 Aký uhol zviera kratšia trajektória k pozorovateľovi s trajektóriou k druhému člnu?
 
 ## Maturitné zadanie 14
+
 **1.** Definujte exponenciálnu funkciu. Povedzte na akej množine je definovaná a aké hodnoty nadobúda. Opíšte graf a uveďte, ktoré z uvedených vlastností, môže exponenciálna funkcia spĺňať: je prostá, monotónna, má maximum, alebo minimum, je ohraničená párna alebo nepárna.
 
 **2.** Vo firme Holmes vyvinuli nový typ trezoru T6, ktorý sa otvára zatlačením 6 tlačidiel, pričom na poradí ich stláčania nezáleží. Na trezore je 10 tlačidiel. Obchodníci ho začali predávať ako bezpečnejší model, za takmer dvojnásobnú cenu oproti trezoru T4, ktorý sa otváral stlačením len 4 tlačidiel. Napriek tomu skoro všetci zákazníci kupovali model T4, hoci na bezpečnosti im záležalo viac ako na cene. Prečo?
@@ -183,6 +196,7 @@ Ako treba zmeniť súradnice bodu $A$, aby:
 - c) priamka mala smerový uhol $45°$?
 
 ## Maturitné zadanie 15
+
 **1.** Definujte logaritmickú funkciu. Povedzte na akej množine je definovaná a aké hodnoty nadobúda. Popíšte graf a uveďte, ktoré z uvedených vlastností, môže logaritmická funkcia spĺňať: je prostá, monotónna, má maximum, alebo minimum, je ohraničená, párna, alebo nepárna. 
 
 Určte inverznú funkciu k funkcii $f:y=(\frac{1}{2})^x$ a načrtnite jej graf.
@@ -194,6 +208,7 @@ Určte inverznú funkciu k funkcii $f:y=(\frac{1}{2})^x$ a načrtnite jej graf
 *Ako sa zmení* objem valca, ak sa daná uhlopriečka **zdvojnásobí**?
 
 ## Maturitné zadanie 16
+
 **1.** Využitím jednotkovej kružnice definujte funkcie kosínus a tangens. Načrtnite ich grafy, určte na akých množinách sú tieto funkcie definované a popíšte, ktoré z nasledujúcich vlastností každá funkcia spĺňa: či je prostá, monotónna, má maximum, alebo minimum, je ohraničená párna alebo nepárna.
 
 **2.** Dokážte Pytagorovu vetu.
@@ -201,6 +216,7 @@ Určte inverznú funkciu k funkcii $f:y=(\frac{1}{2})^x$ a načrtnite jej graf
 **3.** V obchodnom dome majú zo 100 televízorov 85 bezchybných a 15 televízorov so skrytou vadou. Ak prvých desať kupujúcich dostalo bezchybný televízor, aká je pravdepodobnosť, že jedenástemu predajú televízor so skrytou vadou? Ako by sa zmenila situácia, keby prvých 10 kupujúcich dostalo chybný televízor?
 
 ## Maturitné zadanie 17
+
 **1.** Objasnite pojem postupnosť, graf postupnosti. Povedzte, ktoré vlastnosti postupností určujeme. Ilustrujte na príklade. Definujte pojmy aritmetická a geometrická postupnosť.
 
 **2.** Dokážte sínusovú vetu.
@@ -210,6 +226,7 @@ Určte inverznú funkciu k funkcii $f:y=(\frac{1}{2})^x$ a načrtnite jej graf
 Ako sa zmenia extrémy funkcie $f$, ak z predpisu funkcie odstránime absolútnu hodnotu?
 
 ## Maturitné zadanie 18
+
 **1.** Vysvetlite pojem množina. Na konkrétnych množinách popíšte základné množinové operácie - zjednotenie, prienik, doplnok a rozdiel množín. Vysvetlite pojem interval.
 
 **2.** Dokážte, že v ľubovoľnom trojuholníku $KLM$ majú body $K$ a $L$ rovnakú vzdialenosť od priamky, na ktorej leží ťažnica na stranu $m$.
@@ -217,6 +234,7 @@ Ako sa zmenia extrémy funkcie $f$, ak z predpisu funkcie odstránime absolútnu
 **3.** Graf udáva počet sporiteľov podľa výšky úspor. 
 
 ```mermaid
+%%{init: { 'theme': 'dark', 'themeVariables': { 'background': 'transparent', 'xyChart': {'backgroundColor': 'transparent', 'plotColorPalette': '#00000'} } }}%%
 xychart-beta
     title "Počet sporiteľov"
     x-axis "Úspory v €" ["5 000", "7 500", "10 000", "12 500", "15 000", "25 000", "50 000", "75 000"]
@@ -227,9 +245,12 @@ xychart-beta
 Určte priemernú výšku úspor, modus a medián. Ako by sa zmenili tieto charakteristiky, ak by do skupiny sporiteľov nepatrili dvaja s najväčšou výškou úspor? Koľko percent sporiteľov má nadpriemerné úspory?
 
 ## Maturitné zadanie 19
-**1.** Objasnite pojmy: spoločný deliteľ, spoločný násobok, najväčší spoločný deliteľ, najmenší spoločný násobok, prvočíslo, zložené číslo. Popíšte spôsoby ich vyhľadávania, ukážte na dvojici (423, 900).
 
-**2.** Rozhodnite o monotónnosti funkcií f: y = -3x + 7 a g: y = x^2 - 0,81. Svoje tvrdenia dokážte.
+**1.** Objasnite pojmy: spoločný deliteľ, spoločný násobok, najväčší spoločný deliteľ, najmenší spoločný násobok, prvočíslo, zložené číslo. 
+
+Popíšte spôsoby ich vyhľadávania, ukážte na dvojici $(423, 900)$.
+
+**2.** Rozhodnite o monotónnosti funkcií $$f: y = -3x + 7$$ $$g: y = x^2 - 0,81$$Svoje tvrdenia dokážte.
 
 **3.** Určte veľkosti strán a obsah trojuholníka ABC, ak pre jeho uhly platí $\alpha : \beta : \gamma = 2 : 1 : 3$ a strana b = 10 cm. Ako treba zmeniť stranu b, aby obsah trojuholníka ABC bol 200 cm^2?
 
