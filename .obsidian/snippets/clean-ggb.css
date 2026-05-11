@@ -1,0 +1,18 @@
+/* This snippet crops the "messy" parts of the GeoGebra GUI */
+.ggb-stark-view {
+    overflow: hidden;
+    border-radius: 12px;
+    border: 1px solid #333;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    position: relative;
+}
+
+.ggb-stark-view iframe {
+    width: 125%;  /* Zoom the content to push the sidebar out of view */
+    height: 125%;
+    position: absolute;
+    top: -10%;    /* Crop the top toolbar */
+    left: -20%;   /* Crop the algebra sidebar */
+    border: none;
+}

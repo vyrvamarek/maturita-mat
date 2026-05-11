@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <title>Set Intersection Geometry</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background: #111827; color: #f3f4f6; font-family: 'JetBrains Mono', monospace; }
+        canvas { background: #1f2937; border-radius: 1rem; border: 1px solid #374151; }
+        .glass-panel { background: rgba(31, 41, 55, 0.8); backdrop-filter: blur(8px); }
+        input[type="range"] { accent-color: #6366f1; }
+    </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-8">
+
+    <div class="max-w-5xl w-full grid grid-cols-1 md:grid-cols-12 gap-8">
+        
+        <div class="md:col-span-5 space-y-6 flex flex-col justify-center">
+            <div class="glass-panel p-6 rounded-2xl border border-gray-700 shadow-xl">
+                <h1 class="text-xl font-bold text-white mb-2 uppercase tracking-wider">Geometria Množín</h1>
+                <p class="text-xs text-gray-400 mb-6">Prienik základných rovinných útvarov.</p>
+
+                <!-- Mode Switcher -->
+                <div class="flex space-x-2 mb-8 p-1 bg-gray-800 rounded-lg">
+                    <button id="btnSector" class="flex-1 py-2 text-sm font-bold rounded-md bg-indigo-500 text-white transition-all">Výsek (Uhol)</button>
+                    <button id="btnSegment" class="flex-1 py-2 text-sm font-bold rounded-md text-gray-400 hover:text-white transition-all">Odsek (Polrovina)</button>
+                </div>
+
+                <div id="controls-sector" class="space-y-4">
+                    <div>
+                        <label class="flex justify-between text-xs text-indigo-300 mb-1">
+                            <span>Šírka uhla (Rozsah Množiny)</span><span id="angleVal">90°</span>
+                        </label>
+                        <input type="range" id="angleIn" min="10" max="350" value="90" class="w-full">
+                    </div>
+                    <div class="p-3 bg-gray-800/50 rounded text-xs text-gray-300 border-l-2 border-indigo-500 mt-4">
+                        <span class="font-bold text-indigo-400">Podmienka:</span><br>
+                        X ∈ Kruh <b>AND</b> X ∈ Uhol
+                    </div>
+                </div>
+
+                <div id="controls-segment" class="space-y-4 hidden">
+                    <div>
+                        <label class="flex justify-between text-xs text-emerald-300 mb-1">
+                            <span>Posun polroviny (Sečnica)</span><span id="chordVal">0</span>
+                        </label>
+                        <input type="range" id="chordIn" min="-120" max="120" value="40" class="w-full">
+                    </div>
+                    <div class="p-3 bg-gray-800/50 rounded text-xs text-gray-300 border-l-2 border-emerald-500 mt-4">
+                        <span class="font-bold text-emerald-400">Podmienka:</span><br>
+                        X ∈ Kruh <b>AND</b> X ∈ Polrovina
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="md:col-span-7 flex justify-center items-center relative">
+            <canvas id="canvas" width="500" height="500" class="shadow-2xl"></canvas>
+            
+            <div class="absolute bottom-4 left-4 flex flex-col gap-2 pointer-events-none">
+                <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full bg-gray-600/50"></div><span class="text-[10px] text-gray-400">Kruh K</span></div>
+                <div id="legend2" class="flex items-center gap-2"><div class="w-3 h-3 rounded-full bg-indigo-500/20"></div><span class="text-[10px] text-gray-400">Uhol / Polrovina</span></div>
+                <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full bg-yellow-400"></div><span class="text-[10px] text-gray-400">Prienik Množín</span></div>
+            </div>
+        </div>
+    </div>
+
+<script>
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
+    let mode = 'sector'; // 'sector' or 'segment'
+    
+    const cx = 250, cy = 250;
+    const r = 150;
+
+    // UI Elements
+    const btnSector = document.getElementById('btnSector');
+    const btnSegment = document.getElementById('btnSegment');
+    const ctrlSector = document.getElementById('controls-sector');
+    const ctrlSegment = document.getElementById('controls-segment');
+    const legend2 = document.getElementById('legend2');
+    
+    // Inputs
+    const angleIn = document.getElementById('angleIn');
+    const chordIn = document.getElementById('chordIn');
+
+    btnSector.addEventListener('click', () => setMode('sector'));
+    btnSegment.addEventListener('click', () => setMode('segment'));
+    angleIn.addEventListener('input', draw);
+    chordIn.addEventListener('input', draw);
+
+    function setMode(newMode) {
+        mode = newMode;
+        if(mode === 'sector') {
+            btnSector.classList.replace('text-gray-400', 'bg-indigo-500');
+            btnSector.classList.add('text-white');
+            btnSegment.classList.replace('bg-emerald-500', 'text-gray-400');
+            btnSegment.classList.remove('text-white');
+            ctrlSector.classList.remove('hidden');
+            ctrlSegment.classList.add('hidden');
+            legend2.children[0].className = "w-3 h-3 rounded-full bg-indigo-500/20";
+        } else {
+            btnSegment.classList.replace('text-gray-400', 'bg-emerald-500');
+            btnSegment.classList.add('text-white');
+            btnSector.classList.replace('bg-indigo-500', 'text-gray-400');
+            btnSector.classList.remove('text-white');
+            ctrlSector.classList.add('hidden');
+            ctrlSegment.classList.remove('hidden');
+            legend2.children[0].className = "w-3 h-3 rounded-full bg-emerald-500/20";
+        }
+        draw();
+    }
+
+    function draw() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        
+        // 1. Draw Base Circle (Kruh K)
+        ctx.fillStyle = 'rgba(75, 85, 99, 0.1)';
+        ctx.strokeStyle = '#4b5563';
+        ctx.lineWidth = 1;
+        ctx.beginPath();
+        ctx.arc(cx, cy, r, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.stroke();
+
+        if (mode === 'sector') {
+            let angleDeg = parseFloat(angleIn.value);
+            document.getElementById('angleVal').innerText = angleDeg + '°';
+            let angleRad = (angleDeg * Math.PI) / 180;
+            let startAngle = -angleRad / 2;
+            let endAngle = angleRad / 2;
+
+            // Draw Angle Field (Infinite lines representing the angle set)
+            ctx.fillStyle = 'rgba(99, 102, 241, 0.05)';
+            ctx.beginPath();
+            ctx.moveTo(cx, cy);
+            ctx.lineTo(cx + 1000 * Math.cos(startAngle), cy + 1000 * Math.sin(startAngle));
+            ctx.lineTo(cx + 1000 * Math.cos(endAngle), cy + 1000 * Math.sin(endAngle));
+            ctx.closePath();
+            ctx.fill();
+
+            // Draw Boundaries of Angle
+            ctx.strokeStyle = 'rgba(99, 102, 241, 0.4)';
+            ctx.setLineDash([5, 5]);
+            ctx.beginPath();
+            ctx.moveTo(cx, cy); ctx.lineTo(cx + 300 * Math.cos(startAngle), cy + 300 * Math.sin(startAngle));
+            ctx.moveTo(cx, cy); ctx.lineTo(cx + 300 * Math.cos(endAngle), cy + 300 * Math.sin(endAngle));
+            ctx.stroke();
+            ctx.setLineDash([]);
+
+            // Draw Intersection (Kruhový Výsek)
+            ctx.fillStyle = 'rgba(250, 204, 21, 0.8)';
+            ctx.beginPath();
+            ctx.moveTo(cx, cy);
+            ctx.arc(cx, cy, r, startAngle, endAngle);
+            ctx.closePath();
+            ctx.fill();
+
+        } else {
+            let offset = parseFloat(chordIn.value); // distance from center
+            document.getElementById('chordVal').innerText = offset;
+
+            // Draw Half-plane (Polrovina)
+            ctx.fillStyle = 'rgba(16, 185, 129, 0.05)';
+            ctx.fillRect(cx + offset, 0, canvas.width, canvas.height);
+            
+            // Draw Boundary (Sečnica)
+            ctx.strokeStyle = 'rgba(16, 185, 129, 0.4)';
+            ctx.setLineDash([5, 5]);
+            ctx.beginPath();
+            ctx.moveTo(cx + offset, 0);
+            ctx.lineTo(cx + offset, canvas.height);
+            ctx.stroke();
+            ctx.setLineDash([]);
+
+            // Check if chord intersects circle
+            if(Math.abs(offset) < r) {
+                // Calculate intersection angles using trigonometry
+                let angle = Math.acos(offset / r);
+                
+                // Draw Intersection (Kruhový Odsek)
+                ctx.fillStyle = 'rgba(250, 204, 21, 0.8)';
+                ctx.beginPath();
+                // Arc part
+                ctx.arc(cx, cy, r, -angle, angle);
+                // Chord part
+                ctx.closePath(); 
+                ctx.fill();
+            }
+        }
+
+        // Draw Center Point
+        ctx.fillStyle = '#f3f4f6';
+        ctx.beginPath();
+        ctx.arc(cx, cy, 4, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.font = "12px monospace";
+        ctx.fillText("S", cx - 15, cy - 10);
+    }
+
+    draw();
+</script>
+</body>
+</html>

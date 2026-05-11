@@ -1,0 +1,235 @@
+{
+  "main": {
+    "id": "52decbbdacf8f766",
+    "type": "split",
+    "children": [
+      {
+        "id": "bf748ae25187ef27",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "14caaab2249530df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "riesenia/Z20_marek/Zadanie 20.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Zadanie 20"
+            }
+          },
+          {
+            "id": "4676fabdfd24c5cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "riesenia/Z20_marek/Zadanie 20.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Zadanie 20"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "82a70fd0d5e0ce81",
+    "type": "split",
+    "children": [
+      {
+        "id": "977d04eb65daa2e4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2392c6a920fb4114",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "98ece999155ac921",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d0e96abae343145a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2e5050d04da2920d",
+    "type": "split",
+    "children": [
+      {
+        "id": "0fac334117ce329e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8cf3243551970af9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "riesenia/Z20_marek/Zadanie 20.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Zadanie 20"
+            }
+          },
+          {
+            "id": "20c69c45c30a86bc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "riesenia/Z20_marek/Zadanie 20.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Zadanie 20"
+            }
+          },
+          {
+            "id": "d759f65933a3b82f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "446c9a1050503ca3",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "88716acff1e4a595",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "riesenia/Z20_marek/Zadanie 20.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Zadanie 20"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "4676fabdfd24c5cc",
+  "lastOpenFiles": [
+    "riesenia/Z20_marek/vysekodsek.html",
+    "riesenia/svg/TeorDat_Z843.gif",
+    "riesenia/TeorDat_Z843.gif",
+    "riesenia/svg/XYGFBC.png",
+    "riesenia/svg/geogebra-export-4.png",
+    "riesenia/svg/XYGFA.png",
+    "riesenia/svg/geogebra-export-3.png",
+    "riesenia/svg/U20XYGFC.png",
+    "riesenia/svg/geogebra-export-2.png",
+    "riesenia/svg/U20kocka.png",
+    "riesenia/svg/geogebra-export.png",
+    "teoria/~$T opakovanie - planimetria.docx",
+    "riesenia/vysekodsek.html",
+    "zadania/zadania.md",
+    "riesenia/Z20_marek/Zadanie 20.md",
+    "teoria/Základy Matematiky.md",
+    "teoria/Kombinatorika, Pravdepodobnost, Statistika.md",
+    "teoria/Planimetria.md",
+    "teoria/MAT opakovanie - planimetria.docx",
+    "teoria/MAT opakovanie - kombinatorika, pravdepodobnosť, štatistika.docx",
+    "teoria/MAT opakovanie - Základy matematiky.docx",
+    "teoria",
+    "Základy Matematiky.md",
+    "Planimetria.md",
+    "MAT opakovanie - planimetria.docx",
+    "MAT opakovanie - kombinatorika, pravdepodobnosť, štatistika.docx",
+    "MAT opakovanie - Základy matematiky.docx",
+    "Kombinatorika, Pravdepodobnost, Statistika.md",
+    "riesenia/Z20_marek/stredovarovnica.html",
+    "riesenia/Zadanie 25.md",
+    "geogebra test.md"
+  ]
+}
