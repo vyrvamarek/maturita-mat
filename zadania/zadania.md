@@ -365,3 +365,62 @@ Aká musí byť poloha bodu $X$ na $AE$, aby rezom bol **štvoruholník**?
 Vypočítajte súčet obvodov prvých piatich takýchto štvorcov.
 
 Ako sa zmení postup riešenia, ak budeme striedavo vpisovať štvorce a kruhy?
+
+## Maturitné zadanie 28
+
+**1.** Vysvetlite pojmy zhodné zobrazenie a osová súmernosť.<br>Na základe skladaní osových súmerností podľa
+
+* dvoch rovnobežných osí
+* dvoch rôznobežných osí
+* dvoch totožných osí
+
+odvoďte ostatné typy zhodných zobrazení
+
+**2.** Doplnením na štvorec odvoďte súradnice vrcholu paraboly, ktorá je grafom kvadratickej funkcie $$y=ax^2+bc+c,\; ak\;\; a,b,c\in R\land a\neq0$$
+**3.** Na pohotovosti pracuje 19 lekárov, z toho 8 žien.
+
+Koľkými spôsobmi z nich možno zostaviť nočnú službu, ak:
+1. služba sa skladá z 5 lekárov bez ohľadu na pohlavie
+2. v službe majú buť dvaja z 5 chirurgov, jeden z 3 anesteziológov, dvaja z 3 internistov
+
+Cez víkend sa budú konať teambuildingové hry a okrem 5 službukonajúcich lekárov sa ich zúčastnil celý pohotovostný tím.
+Koľkými spôsobmi bude možné rozsadiť našich lekárov v mikrobuse s 20 sedadlami pre pasažierov?
+
+## Maturitné zadanie 29
+
+**1.** Definujte pojem trojuholník a vysvetlite základné pojmy: vrchol, strana, vonkajší a vnútorný uhol trojuholníka.
+
+Rozdeľte trojuholníky podľa:
+1. veľkosti strán
+2. veľkosti vnútroných uhlov
+
+Vysvetlite:
+1. Čo platí pre veľkosť vnútorných uhlov v trojuholníku?
+2. Čo musí platiť pre veľkosť strán trojuholníka?
+3. Aký je vzájomný vzťah medzi veľkosťou strán a vnútorných uhlov trojuholníka?
+
+**2.** Kruhu s polomerom $r$ opíšeme rovnostranný trojuholník aj štvorec. Vyjadrite pomer ich obsahov.
+
+**3.** V triede navštevuje 27 žiakov nejaký krúžok.
+
+Tanečný krúžok navštevuje 14 žiakov, športový krúžok navštevuje 21 žiakov a dramatický krúžok 16 žiakov.
+Tanečný a športový krúžok navštevuje 9 žiakov, tanečný a dramatický krúžok 6 žiakov, športový a dramatický krúžok navštevuje 11 žiakov.
+Koľko žiakov navštevuje všetky 3 krúžky?
+
+## Maturitné zadanie 30
+
+**1.** Definujte pojem uhol a jeho označenie. Vysvetlite pojmy konvexný a nekonvexný uhol. Rozdeľte uhly podľa velkosti. 
+
+Nakreslite a vysvetlite pojmy: susedné, vrcholové, súhlasné a stredavé uhly.
+
+**2.** Postupnosť je daná rekurentne:
+
+$$a_1=\frac{1}{2},\; a_{n+1}=\frac{(n+1)^2}{n(n+2)}\cdot a_n$$
+
+Vypíšte niekoľko prvých členov tejto postupnosti.
+Vyslovte hypotézu o vzorci pre výpočet n-tého člena a dokážte ju.
+
+**3.** Riešte v $R^2$
+$$x^2+y^2-10=0$$
+$$x+y-4=0$$
+Ako treba zmeniť prvú rovnicu, aby sústava nemala riešenie?
