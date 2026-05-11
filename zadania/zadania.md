@@ -92,12 +92,13 @@ Ako by sa mali zmeniť súradnice bodu $C$, aby dané body ležali na jednej pri
 
 **1.** Definujte lineárnu funkciu. Popíšte, na akej množine môže byť definovaná a ktoré z nasledujúcich vlastností môže lineárna funkcia spĺňať: je prostá, párna, monotónna, má maximum, alebo minimum, je ohraničená? 
 
-Daná je funkcia $f:y=−2x+3;x\in (−7;3\rangle$
+Daná je funkcia $f:y=-2x+3;x\in (-7;3\rangle$
+
 Určte $D(f),H(f)$ a popíšte, ktoré z hore uvedených vlastností funkcia $f$ spĺňa.
 
 **2.** Dokážte, že trojciferné číslo „$xyz$“, kde $x,y,z$ sú jeho cifry, je deliteľné tromi práve vtedy, keď súčet $x+y+z$ je deliteľný tromi. Návod: použite desiatkový rozklad čísla $xyz$.
 
-**3.** Vypočítajte obsah trojuholníka $ABC$ a veľkosť uhla $β$, ak $A[3,2]$, $B[−1,1]$ a $C[11,−6]$.
+**3.** Vypočítajte obsah trojuholníka $ABC$ a veľkosť uhla $β$, ak $A[3,2]$, $B[-1,1]$ a $C[11,-6]$.
 
 Ako treba zmeniť y-ovú súradnicu bodu $C$, aby trojuholník $ABC$ bol pravouhlý s pravým uhlom pri vrchole $B$?
 
