@@ -10,7 +10,10 @@ Popíšte, na akej množine môže byť definovaná a ktoré z nasledujúcich vl
 
 **2.** Dokážte, že spojnice bodov, ktoré vyznačujú na ciferníku hodiniek čísla 11,3 a 2,6 sú na seba kolmé.
 
-**3.** Je daná postupnosť $$\left\{\frac{\operatorname{n}}{n+3}\right\}_{n=1}^\infty$$
+**3.** Je daná postupnosť 
+```math
+\left\{ \frac{n}{n+3} \right\}_{n=1}^\infty
+```
 
 * zistite či je daná postupnosť ohraničená
 * vyjadrite túto postupnosť rekurentne. Existuje aj iné rekurentné určenie danej postupnosti?
@@ -283,10 +286,10 @@ Svoje tvrdenia odôvodnite.
 **1.** Vysvetlite pojmy rovnoľahlosť, stred rovnoľahlosti, koeficient rovnoľahlosti. Opíšte postup zobrazovania úsečky v podobnom zobrazení - uvažujte o rôznych hodnotách koeficientu rovnoľahlosti.
 
 **2.** Dokážte, že postupnosť je aritmetická
-$$\left\{\frac{3-\operatorname{n}}{5}\right\}_{n=1}^\infty$$
+$$\left\{ \frac{3-\operatorname{n}}{5} \right\}_{n=1}^\infty$$
 
 O tejto postupnosti dokážte, že je geometrická
-$$\left\{\frac{4^{n+2}}{3^{n+1}}\right\}_{n=1}^\infty$$
+$$\left\{ \frac{4^{n+2}}{3^{n+1}} \right\}_{n=1}^\infty$$
 
 **3.** V rovnoramennom *lichobežníku* $ABCD$ so základňou $AB$ poznáme dĺžku ramien $b=5cm$ a veľkosť uhlopriečok $e=7cm$. Veľkosť uhla $|\angle ADC|=120\degree$
 
