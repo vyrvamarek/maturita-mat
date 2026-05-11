@@ -11,9 +11,7 @@ Popíšte, na akej množine môže byť definovaná a ktoré z nasledujúcich vl
 **2.** Dokážte, že spojnice bodov, ktoré vyznačujú na ciferníku hodiniek čísla 11,3 a 2,6 sú na seba kolmé.
 
 **3.** Je daná postupnosť 
-```math
-\left\{ \frac{n}{n+3} \right\}_{n=1}^\infty
-```
+$$\left\{ \frac{n}{n+3} \right\}_{n=1}^\infty$$
 
 * zistite či je daná postupnosť ohraničená
 * vyjadrite túto postupnosť rekurentne. Existuje aj iné rekurentné určenie danej postupnosti?
@@ -111,7 +109,7 @@ Určte $D(f),H(f)$ a popíšte, ktoré z hore uvedených vlastností funkcia 
 
 **2.** Dokážte, že trojciferné číslo „$xyz$“, kde $x,y,z$ sú jeho cifry, je deliteľné tromi práve vtedy, keď súčet $x+y+z$ je deliteľný tromi. Návod: použite desiatkový rozklad čísla $xyz$.
 
-**3.** Vypočítajte obsah trojuholníka $ABC$ a veľkosť uhla $β$, ak $A[3,2]$, $B[-1,1]$ a $C[11,-6]$
+**3.** Vypočítajte obsah trojuholníka $ABC$ a veľkosť uhla $\beta$, ak $A[3,2]$, $B[-1,1]$ a $C[11,-6]$
 
 Ako treba zmeniť y-ovú súradnicu bodu $C$, aby trojuholník $ABC$ bol pravouhlý s pravým uhlom pri vrchole $B$?
 
@@ -287,14 +285,10 @@ Svoje tvrdenia odôvodnite.
 **1.** Vysvetlite pojmy rovnoľahlosť, stred rovnoľahlosti, koeficient rovnoľahlosti. Opíšte postup zobrazovania úsečky v podobnom zobrazení - uvažujte o rôznych hodnotách koeficientu rovnoľahlosti.
 
 **2.** Dokážte, že postupnosť je aritmetická
-```math
-\left\{ \frac{3-n}{5} \right\}_{n=1}^\infty
-```
+$$\left\{ \frac{3-n}{5} \right\}_{n=1}^\infty$$
+
 O tejto postupnosti dokážte, že je geometrická
-```math
-\left\{ \frac{4^{n+2}}{3^{n+1}} \right\}_{n=1}^\infty
-```
-<br>
+$$\left\{ \frac{4^{n+2}}{3^{n+1}} \right\}_{n=1}^\infty$$<br>
 **3.** V rovnoramennom *lichobežníku* $ABCD$ so základňou $AB$ poznáme dĺžku ramien $b=5cm$ a veľkosť uhlopriečok $e=7cm$. Veľkosť uhla $|\angle ADC|=120\degree$
 
 Vypočítajte obsah lichobežníka $ABCD$.
@@ -337,9 +331,8 @@ Ako sa zmenia súradnice vrcholov kocky, ak $A[0;0;0]$
 **1.** Definuj lineárnu lomenú funkciu. Na konkrétnom príklade určte $D(f)$, $H(f)$ a popíšte, ktoré z nasledujúcich vlastností vaša funkcia spĺňa: či je prostá, monotónna, má maximum alebo minimum, je ohraničená.
 
 **2.** Dokážte, že postupnosť je ohraničená.
-```math
-\left\{ \frac{(-1)^n}{3n-1} \right\}_{n=1}^\infty
-```
+$$\left\{ \frac{(-1)^n}{3n-1} \right\}_{n=1}^\infty$$
+
 Zistite, či je monotónna a svoje tvrdenie odôvodnite.
 
 **3.** Zostrojte rez kocky $ABCDEFGH$ rovinou $\rho$ určenou bodmi $X$, $Y$, $Z$.
