@@ -11,9 +11,7 @@ Popíšte, na akej množine môže byť definovaná a ktoré z nasledujúcich vl
 **2.** Dokážte, že spojnice bodov, ktoré vyznačujú na ciferníku hodiniek čísla 11,3 a 2,6 sú na seba kolmé.
 
 **3.** Je daná postupnosť 
-```math
-\left\{ \frac{n}{n+3} \right\}_{n=1}^\infty
-```
+$$ \left\{ \frac{n}{n+3} \right\}_{n=1}^\infty $$
 
 * zistite či je daná postupnosť ohraničená
 * vyjadrite túto postupnosť rekurentne. Existuje aj iné rekurentné určenie danej postupnosti?
