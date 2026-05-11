@@ -30,6 +30,7 @@ Popíšte, na akej množine môže byť definovaná a ktoré z nasledujúcich vl
 * načrtnite grafy funkcií $f(x),|f(x)|$
 * určte pre všetky $r\in R$ , pre ktoré má rovnica $|f(x)| = r$ práve 4 riešenia
 * ako je potrebné zmeniť číslo -3 v predpise funkcie $f$, aby graf funkcie prechádzal bodom $[0;2]$
+
 ## Maturitné zadanie 03
 **1.** Definujte pojem pravdepodobnosti náhodného javu, uveďte základné vlastnosti. Objasnite pojmy doplnková pravdepodobnosť a nezávislé javy. Ilustrujte na jednoduchých príkladoch (napr. hod kockou).
 
@@ -42,6 +43,7 @@ Popíšte, na akej množine môže byť definovaná a ktoré z nasledujúcich vl
 
  uveďte ako sa zmení $D(h)$, ak predpis funkcie $h$ upravíme naslednovne:
 * $h:y=\log \sqrt{x}$
+
 ## Maturitné zadanie 04
 **1.** Definujte pojmy variácie s opakovaním a bez opakovania, permutácie, faktoriál. Vysvetlite použitie kombinatorického pravidla súčtu a súčinu.
 
@@ -52,6 +54,7 @@ Popíšte, na akej množine môže byť definovaná a ktoré z nasledujúcich vl
 Určte toto číslo $k$, prvý člen získanej postupnosti a jej kvocient.
 
 Aké číslo $k$ musím pripočítať k daným číslam, ak chcem získať aritmetickú postupnosť?
+
 ## Maturitné zadanie 05
 **1.** Definujte kombinácie - vysvetlite na konkrétnom príklade. Definujte kombinačné číslo a jeho vlastnosti. Pascalov trojuholník.
 
@@ -60,6 +63,7 @@ Aké číslo $k$ musím pripočítať k daným číslam, ak chcem získať aritm
 **3.** Vypočítajte prieniky s osami a načrtnite graf funkcie $f:y=(\frac{1}{3})^{x-2}-1$
 
 Určte všetky $r\in R$, pre ktoré má rovnica $|f(x)|=r$ práve 2 riešenia. Ako je potrebné zmeniť číslo -1 v predpise funkcie, aby graf funkcie f nepretínal x-ovú os?
+
 ## Maturitné zadanie 06
 **1.** Analyticky vyjadrite priamku v rovine (aspoň 2 rôznymi spôsobmi) a klasifikujte vzájomnú polohu dvoch priamok v rovine.
 
@@ -70,6 +74,7 @@ Určte všetky $r\in R$, pre ktoré má rovnica $|f(x)|=r$ práve 2 riešenia. A
 Potom graficky určte všetky $x\in D(f)$, pre ktoré $f(x)\in (1;5\rangle$
 
 Zmeňte predpis funkcie $f$ tak, aby graf funkcie mal spolocčný bod s osou y.
+
 ## Maturitné zadanie 07
 **1.** Definujte a nakreslite množiny bodov s danou vlastnosťou:
 - os úsečky
@@ -89,7 +94,6 @@ Vypočítajte veľkosť ťažnice na stranu a.
 Ako by sa mali zmeniť súradnice bodu $C$, aby dané body ležali na jednej priamke?
 
 ## Maturitné zadanie 08
-
 **1.** Definujte lineárnu funkciu. Popíšte, na akej množine môže byť definovaná a ktoré z nasledujúcich vlastností môže lineárna funkcia spĺňať: je prostá, párna, monotónna, má maximum, alebo minimum, je ohraničená? 
 
 Daná je funkcia $f:y=-2x+3;x\in (-7;3\rangle$
@@ -98,92 +102,96 @@ Určte $D(f),H(f)$ a popíšte, ktoré z hore uvedených vlastností funkcia 
 
 **2.** Dokážte, že trojciferné číslo „$xyz$“, kde $x,y,z$ sú jeho cifry, je deliteľné tromi práve vtedy, keď súčet $x+y+z$ je deliteľný tromi. Návod: použite desiatkový rozklad čísla $xyz$.
 
-**3.** Vypočítajte obsah trojuholníka $ABC$ a veľkosť uhla $β$, ak $A[3,2]$, $B[-1,1]$ a $C[11,-6]$.
+**3.** Vypočítajte obsah trojuholníka $ABC$ a veľkosť uhla $β$, ak $A[3,2]$, $B[-1,1]$ a $C[11,-6]$
 
 Ako treba zmeniť y-ovú súradnicu bodu $C$, aby trojuholník $ABC$ bol pravouhlý s pravým uhlom pri vrchole $B$?
 
 ## Maturitné zadanie 09
-
 **1.** Objasnite pojem funkcia. Vysvetlite pojmy definičný obor a obor hodnôt funkcie. Popíšte vlastnosti funkcií, ktoré poznáte. Ilustrujte na konkrétnom príklade.
 
 _Konkrétna pomôcka: Obrázky rôznych grafov_
 
-**2.** Dokážte, že bodom M, ktorý leží mimo priamky $p$, je možné viesť najviac jednu rôznobežku kolmo na priamku p.
+**2.** Dokážte, že bodom M, ktorý leží mimo priamky $p$, je možné viesť najviac jednu rôznobežku kolmo na priamku $p$.
 
-**3.** Určte stred a polomer kružnice k:x2+y2−3x+2y−3=0 a jej vzájomnú polohu s priamkou p:2x−y=0. Zmeňte číslo −3 v predpise kružnice tak, aby nebol vyjadrením kružnice. Ako sa zmení ich vzájomná poloha, ak bude mať priamka rovnicu x−y−9=0?
+**3.** Určte stred a polomer kružnice $k:x^2+y^2−3x+2y−3=0$ a jej vzájomnú polohu s priamkou $p:2x−y=0$. 
+
+Zmeňte číslo $-3$ v predpise kružnice tak, aby nebol vyjadrením kružnice.
+
+Ako sa zmení ich vzájomná poloha, ak bude mať priamka rovnicu $x-y-9=0$?
 
 ## Maturitné zadanie 10
-
 **1.** Klasifikujte hranaté a rotačné telesá. Ich vlastnosti opíšte na konkrétnych príkladoch (napríklad pravidelný 6-boký hranol, ihlan a rotačný valec).
 
 _Konkrétne pomôcky: modely rôznych telies._
 
 **2.** Využitím definície kružnice odvoďte analytické vyjadrenie kružnice so stredom v bode S:
 
-- a) S[0,0]
-    
-- b) S[m,n]
-    
+- a) $S[0,0]$
+- b) $S[m,n]$
 
-**3.** Riešte v R nerovnicu:
-
-(1−x)⋅2xx2+3x−18​≥0
+**3.** Riešte v R nerovnicu: $\frac{x^2+3x-18}{(1-x).2^x}\ge0$
 
 Ako sa zmení riešenie nerovnice, ak znak nerovnosti zmeníme na "menší ako nula"?
 
 ## Maturitné zadanie 11
-
 **1.** Objasnite pojmy vektor, umiestnenie vektora, súradnice vektora a jeho veľkosť, opačný vektor k danému, súčet a rozdiel dvoch vektorov, násobok vektora reálnym číslom.
 
 **2.** Odvoďte vzorec pre výpočet obsahu
+- a) rovnostranného trojuholníka s danou výškou $v$
+- b) kosoštvorca s uhlopriečkami $e,f$
 
-- a) rovnostranného trojuholníka s danou výškou v
-    
-- b) kosoštvorca s uhlopriečkami e,f
-    
+**3.** Napíšte predpis lineárnej funkcie f s $D(f)\subset R$, ktorá prechádza bodom so súradnicami $[3;−7]$ a nadobúda maximum v bode $x=-5$, ktorého hodnota je $y=9$. Minimum $f$ nenadobúda. 
 
-**3.** Napíšte predpis lineárnej funkcie f s D(f)⊂R, ktorá prechádza bodom so súradnicami [3;−7] a nadobúda maximum v bode x=−5, ktorého hodnota je y=9. Minimum f nenadobúda. Načrtnite grafy funkcií f(x),∣f(x)∣. Napíšte predpis funkcie g, ktorej D(g)=D(f) a ktorej graf je rovnobežný s funkciou f a prechádza začiatkom súradnicovej sústavy.
+Načrtnite grafy funkcií $f(x),|f(x)|$. Napíšte predpis funkcie $g$, ktorej $D(g)=D(f)$ a ktorej graf je rovnobežný s funkciou $f$ a prechádza začiatkom súradnicovej sústavy.
 
 ## Maturitné zadanie 12
-
 **1.** Klasifikujte vzájomnú polohu dvoch priamok, dvoch rovín a priamky a roviny v priestore, podľa počtu spoločných bodov.
 
-**2.** Do vnútra štvorca ABCD so stranou dlhou 6 cm umiestnite bod P tak, že ∣AP∣=3 cm a ∣BP∣=4 cm. Zostrojte rovnostranný trojuholník PQR tak, aby vrcholy Q,R ležali na obvode štvorca ABCD.
+**2.** Do vnútra štvorca $ABCD$ so stranou dlhou $6 cm$ umiestnite bod $P$ tak, že $|AP|=3 cm$ a $|BP|=4 cm$. Zostrojte rovnostranný trojuholník $PQR$ tak, aby vrcholy $Q,R$ ležali na obvode štvorca $ABCD$.
 
-**3.** Využitím grafu inverznej funkcie načrtnite graf funkcie f:y=2+x−8![](data:image/svg+xml;utf8,<svg%20xmlns="http://www.w3.org/2000/svg"%20width="400em"%20height="1.08em"%20viewBox="0%200%20400000%201080"%20preserveAspectRatio="xMinYMin%20slice"><path%20d="M95,702c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,-10,-9.5,-14c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54c44.2,-33.3,65.8,-50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10s173,378,173,378c0.7,0,35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429c69,-144,104.5,-217.7,106.5,-221l0%20-0c5.3,-9.3,12,-14,20,-14H400000v40H845.2724s-225.272,467,-225.272,467s-235,486,-235,486c-2.7,4.7,-9,7,-19,7c-6,0,-10,-1,-12,-3s-194,-422,-194,-422s-65,47,-65,47zM834%2080h400000v40h-400000z"></path></svg>)​. Ako je potrebné zmeniť číslo 2 v predpise funkcie f, aby graf funkcie prechádzal bodom A so súradnicami [0;0]?
+**3.** Využitím grafu inverznej funkcie načrtnite graf funkcie $f:y=2+\sqrt{x-8}$​. 
+
+Ako je potrebné zmeniť číslo $2$ v predpise funkcie $f$, aby graf funkcie prechádzal bodom A so súradnicami $[0;0]$?
 
 ## Maturitné zadanie 13
+**1.** Definujte mocninovú funkciu. Klasifikujte typy mocninových funkcií podľa mocniteľa – ilustrujte na grafoch.
 
-**1.** Definujte mocninovú funkciu. Klasifikujte typy mocninových funkcií podľa mocniteľa – ilustrujte na grafoch. Daná je funkcia f:y=x10. Určte D(f),H(f) a popíšte, ktoré z nasledujúcich vlastností funkcia f spĺňa: je prostá, monotónna, nadobúda maximum alebo minimum, je ohraničená, či párna?.
+Daná je funkcia $f:y=x^{10}$$.
 
-**2.** Dokážte že ∀n∈N:15∣(3n3−12n)⋅(n2−1)
+Určte $D(f),H(f)$ a popíšte, ktoré z nasledujúcich vlastností funkcia $f$ spĺňa: je prostá, monotónna, nadobúda maximum alebo minimum, je ohraničená, či párna?
 
-**3.** Pozorovateľ na brehu mora vidí dva člny pod zorným uhlom 120°. Člny sú od pozorovateľa vzdialené 2 a 3 míle. Koľko si nadíde lodivod prvého člnu, ak sa k druhému nepriplaví priamo, ale cestou sa zastaví pri pozorovateľovi? Aký uhol zviera kratšia trajektória k pozorovateľovi s trajektóriou k druhému člnu?
+**2.** Dokážte že $\forall{n}\in N:15\;|\;(3n3-12n).(n2-1)$
+
+**3.** Pozorovateľ na brehu mora vidí dva člny pod zorným uhlom 120°. Člny sú od pozorovateľa vzdialené 2 a 3 míle.
+
+Koľko si nadíde lodivod prvého člnu, ak sa k druhému nepriplaví priamo, ale cestou sa zastaví pri pozorovateľovi?
+
+Aký uhol zviera kratšia trajektória k pozorovateľovi s trajektóriou k druhému člnu?
 
 ## Maturitné zadanie 14
-
 **1.** Definujte exponenciálnu funkciu. Povedzte na akej množine je definovaná a aké hodnoty nadobúda. Opíšte graf a uveďte, ktoré z uvedených vlastností, môže exponenciálna funkcia spĺňať: je prostá, monotónna, má maximum, alebo minimum, je ohraničená párna alebo nepárna.
 
 **2.** Vo firme Holmes vyvinuli nový typ trezoru T6, ktorý sa otvára zatlačením 6 tlačidiel, pričom na poradí ich stláčania nezáleží. Na trezore je 10 tlačidiel. Obchodníci ho začali predávať ako bezpečnejší model, za takmer dvojnásobnú cenu oproti trezoru T4, ktorý sa otváral stlačením len 4 tlačidiel. Napriek tomu skoro všetci zákazníci kupovali model T4, hoci na bezpečnosti im záležalo viac ako na cene. Prečo?
 
 V tej istej firme začali ponúkať aj lacnejší model K3, ktorý bol mechanický a otváral sa nastavením správnej cifry na každom z troch kotúčov s 10 ciframi (klasický kufríkový zámok). Odvtedy už nepredali ani jeden kus z modelov radu T. Prečo?
 
-**3.** Dané sú body A[2,1] a B[3,7]. Napíšte parametrické vyjadrenie priamky AB aj jej rovnicu v smernicovom tvare. Ako treba zmeniť súradnice bodu A, aby:
+**3.** Dané sú body $A[2,1]$ a $B[3,7]$. Napíšte parametrické vyjadrenie priamky $AB$ aj jej rovnicu v smernicovom tvare.
 
-- a) priamka bola rovnobežná s osou x,
-    
-- b) priamka prechádzala začiatkom súradnicovej sústavy,
-    
-- c) priamka mala smerový uhol 45°?
-    
+Ako treba zmeniť súradnice bodu $A$, aby:
+- a) priamka bola rovnobežná s osou $x$
+- b) priamka prechádzala začiatkom súradnicovej sústavy
+- c) priamka mala smerový uhol $45°$?
 
 ## Maturitné zadanie 15
+**1.** Definujte logaritmickú funkciu. Povedzte na akej množine je definovaná a aké hodnoty nadobúda. Popíšte graf a uveďte, ktoré z uvedených vlastností, môže logaritmická funkcia spĺňať: je prostá, monotónna, má maximum, alebo minimum, je ohraničená, párna, alebo nepárna. 
 
-**1.** Definujte logaritmickú funkciu. Povedzte na akej množine je definovaná a aké hodnoty nadobúda. Popíšte graf a uveďte, ktoré z uvedených vlastností, môže logaritmická funkcia spĺňať: je prostá, monotónna, má maximum, alebo minimum, je ohraničená, párna, alebo nepárna. Určte inverznú funkciu k funkcii f:y=(21​)x a načrtnite jej graf.
+Určte inverznú funkciu k funkcii $f:y=(\frac{1}{2})^x$ a načrtnite jej graf.
 
-**2.** Dané sú tri priamky k,l,m, pričom priamky k a m sú rovnobežné, priamka l je s nimi rôznobežná. Zostrojte všetky rovnostranné trojuholníky ABC, v ktorých ťažnica tc​ je časťou priamky m, a vrcholy A,B ležia postupne na priamkach k,l.
+**2.** Dané sú tri priamky $k$,$l$,$m$, pričom priamky $k$ a $m$ sú rovnobežné, priamka $l$ je s nimi rôznobežná. Zostrojte všetky *rovnostranné trojuholníky* $ABC$, v ktorých ťažnica $t_c$​ je časťou priamky $m$, a vrcholy $A$,$B$ ležia postupne na priamkach $k$,$l$.
 
-**3.** Osovým rezom valca je obdĺžnik s uhlopriečkou dĺžky 20 cm. Výška valca je 2-krát väčšia než priemer podstavy. Vypočítajte objem valca v litroch. Ako sa zmení objem valca, ak sa daná uhlopriečka zdvojnásobí?
+**3.** Osovým rezom valca je obdĺžnik s uhlopriečkou dĺžky $20 cm$. Výška valca je *2-krát väčšia* než *priemer podstavy*. Vypočítajte objem valca v **litroch**. 
+
+*Ako sa zmení* objem valca, ak sa daná uhlopriečka **zdvojnásobí**?
 
 ## Maturitné zadanie 16
 **1.** Využitím jednotkovej kružnice definujte funkcie kosínus a tangens. Načrtnite ich grafy, určte na akých množinách sú tieto funkcie definované a popíšte, ktoré z nasledujúcich vlastností každá funkcia spĺňa: či je prostá, monotónna, má maximum, alebo minimum, je ohraničená párna alebo nepárna.
@@ -197,14 +205,26 @@ V tej istej firme začali ponúkať aj lacnejší model K3, ktorý bol mechanick
 
 **2.** Dokážte sínusovú vetu.
 
-**3.** Zostrojte graf funkcie $f: y = |(x + 2)^2 - 1|$. Ako sa zmenia extrémy funkcie $f$, ak z predpisu funkcie odstránime absolútnu hodnotu?
+**3.** Zostrojte graf funkcie $f: y = |(x + 2)^2 - 1|$
+
+Ako sa zmenia extrémy funkcie $f$, ak z predpisu funkcie odstránime absolútnu hodnotu?
 
 ## Maturitné zadanie 18
 **1.** Vysvetlite pojem množina. Na konkrétnych množinách popíšte základné množinové operácie - zjednotenie, prienik, doplnok a rozdiel množín. Vysvetlite pojem interval.
 
-**2.** Dokážte, že v ľubovoľnom trojuholníku KLM majú body K a L rovnakú vzdialenosť od priamky, na ktorej leží ťažnica na stranu m.
+**2.** Dokážte, že v ľubovoľnom trojuholníku $KLM$ majú body $K$ a $L$ rovnakú vzdialenosť od priamky, na ktorej leží ťažnica na stranu $m$.
 
-**3.** Graf udáva počet sporiteľov podľa výšky úspor. Určte priemernú výšku úspor, modus a medián. Ako by sa zmenili tieto charakteristiky, ak by do skupiny sporiteľov nepatrili dvaja s najväčšou výškou úspor? Koľko percent sporiteľov má nadpriemerné úspory?
+**3.** Graf udáva počet sporiteľov podľa výšky úspor. 
+
+```mermaid
+xychart-beta
+    title "Počet sporiteľov"
+    x-axis "Úspory v €" ["5 000", "7 500", "10 000", "12 500", "15 000", "25 000", "50 000", "75 000"]
+    y-axis "Počet sporiteľov" 0 --> 8
+    bar [4, 7, 1, 3, 4, 2, 1, 1]
+```
+
+Určte priemernú výšku úspor, modus a medián. Ako by sa zmenili tieto charakteristiky, ak by do skupiny sporiteľov nepatrili dvaja s najväčšou výškou úspor? Koľko percent sporiteľov má nadpriemerné úspory?
 
 ## Maturitné zadanie 19
 **1.** Objasnite pojmy: spoločný deliteľ, spoločný násobok, najväčší spoločný deliteľ, najmenší spoločný násobok, prvočíslo, zložené číslo. Popíšte spôsoby ich vyhľadávania, ukážte na dvojici (423, 900).
