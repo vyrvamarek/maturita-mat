@@ -232,7 +232,7 @@ Ako sa zmenia extrémy funkcie $f$, ak z predpisu funkcie odstránime absolútnu
 **3.** Graf udáva počet sporiteľov podľa výšky úspor. 
 
 ```mermaid
-%%{init: { 'theme': 'dark', 'themeVariables': { 'background': 'transparent', 'xyChart': {'backgroundColor': 'transparent', 'plotColorPalette': '#00000'} } }}%%
+%%{init: { 'theme': 'white', 'themeVariables': { 'background': 'transparent', 'xyChart': {'backgroundColor': 'transparent', 'plotColorPalette': '#00000'} } }}%%
 xychart-beta
     title "Počty sporiteľov"
     x-axis "Úspory v €" ["5 000", "7 500", "10 000", "12 500", "15 000", "25 000", "50 000", "75 000"]
@@ -293,7 +293,7 @@ O tejto postupnosti dokážte, že je geometrická
 ```math
 \left\{ \frac{4^{n+2}}{3^{n+1}} \right\}_{n=1}^\infty
 ```
-
+<br>
 **3.** V rovnoramennom *lichobežníku* $ABCD$ so základňou $AB$ poznáme dĺžku ramien $b=5cm$ a veľkosť uhlopriečok $e=7cm$. Veľkosť uhla $|\angle ADC|=120\degree$
 
 Vypočítajte obsah lichobežníka $ABCD$.
