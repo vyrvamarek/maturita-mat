@@ -108,7 +108,7 @@ Ako treba zmeniť y-ovú súradnicu bodu $C$, aby trojuholník $ABC$ bol pravouh
 
 _Konkrétna pomôcka: Obrázky rôznych grafov_
 
-**2.** Dokážte, že bodom M, ktorý leží mimo priamky p, je možné viesť najviac jednu rôznobežku kolmo na priamku p.
+**2.** Dokážte, že bodom M, ktorý leží mimo priamky $p$, je možné viesť najviac jednu rôznobežku kolmo na priamku p.
 
 **3.** Určte stred a polomer kružnice k:x2+y2−3x+2y−3=0 a jej vzájomnú polohu s priamkou p:2x−y=0. Zmeňte číslo −3 v predpise kružnice tak, aby nebol vyjadrením kružnice. Ako sa zmení ich vzájomná poloha, ak bude mať priamka rovnicu x−y−9=0?
 
