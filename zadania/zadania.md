@@ -293,6 +293,7 @@ O tejto postupnosti dokážte, že je geometrická
 ```math
 \left\{ \frac{4^{n+2}}{3^{n+1}} \right\}_{n=1}^\infty
 ```
+
 **3.** V rovnoramennom *lichobežníku* $ABCD$ so základňou $AB$ poznáme dĺžku ramien $b=5cm$ a veľkosť uhlopriečok $e=7cm$. Veľkosť uhla $|\angle ADC|=120\degree$
 
 Vypočítajte obsah lichobežníka $ABCD$.
