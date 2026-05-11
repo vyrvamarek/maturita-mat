@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <title>Circle & Pythagoras Engine</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background: #0a0a0a; color: #e5e5e5; font-family: 'Inter', sans-serif; }
+        .glass { background: rgba(23, 23, 23, 0.8); backdrop-filter: blur(12px); border: 1px solid rgba(63, 63, 70, 0.5); }
+        input[type=range] { h-1.5 w-full bg-zinc-700 rounded-lg appearance-none cursor-pointer accent-sky-500; }
+    </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-6">
+
+    <div class="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-12 gap-8">
+        
+        <!-- Sidebar: Controls & Logic -->
+        <div class="lg:col-span-4 space-y-6">
+            <div class="glass p-6 rounded-2xl">
+                <h1 class="text-xl font-bold bg-gradient-to-r from-sky-400 to-emerald-400 bg-clip-text text-transparent mb-4">
+                    Geometrický procesor
+                </h1>
+
+                <!-- Center Point S -->
+                <div class="mb-8">
+                    <label class="text-[10px] uppercase tracking-widest text-sky-400 font-bold">Stred S [m, n]</label>
+                    <div class="space-y-4 mt-2">
+                        <div>
+                            <div class="flex justify-between text-xs mb-1"><span>m (os x)</span><span id="mVal">0</span></div>
+                            <input type="range" id="mIn" min="-8" max="8" step="0.1" value="-2">
+                        </div>
+                        <div>
+                            <div class="flex justify-between text-xs mb-1"><span>n (os y)</span><span id="nVal">0</span></div>
+                            <input type="range" id="nIn" min="-8" max="8" step="0.1" value="1">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Point X -->
+                <div class="mb-8">
+                    <label class="text-[10px] uppercase tracking-widest text-emerald-400 font-bold">Bod na kružnici X [x, y]</label>
+                    <div class="space-y-4 mt-2">
+                        <div>
+                            <div class="flex justify-between text-xs mb-1"><span>x (os x)</span><span id="xVal">0</span></div>
+                            <input type="range" id="xIn" min="-8" max="8" step="0.1" value="2">
+                        </div>
+                        <div>
+                            <div class="flex justify-between text-xs mb-1"><span>y (os y)</span><span id="yVal">0</span></div>
+                            <input type="range" id="yIn" min="-8" max="8" step="0.1" value="4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Real-time Equation -->
+            <div class="glass p-6 rounded-2xl border-l-4 border-sky-500">
+                <div class="text-[10px] uppercase text-zinc-500 mb-2 font-mono">Dynamický výpočet:</div>
+                <div id="eqOutput" class="font-mono text-sm leading-relaxed tracking-tight"></div>
+            </div>
+        </div>
+
+        <!-- Main Visualizer -->
+        <div class="lg:col-span-8 glass rounded-3xl overflow-hidden relative shadow-2xl">
+            <canvas id="canvas" width="800" height="800" class="w-full h-full"></canvas>
+            
+            <!-- HUD Stats -->
+            <div class="absolute top-6 left-6 grid grid-cols-3 gap-4">
+                <div class="bg-black/50 p-3 rounded-lg border border-white/10">
+                    <div class="text-[9px] text-zinc-500 uppercase">Odvesna Δx</div>
+                    <div id="dxStat" class="text-sky-400 font-bold font-mono">0.00</div>
+                </div>
+                <div class="bg-black/50 p-3 rounded-lg border border-white/10">
+                    <div class="text-[9px] text-zinc-500 uppercase">Odvesna Δy</div>
+                    <div id="dyStat" class="text-emerald-400 font-bold font-mono">0.00</div>
+                </div>
+                <div class="bg-black/50 p-3 rounded-lg border border-white/10">
+                    <div class="text-[9px] text-zinc-500 uppercase">Polomer r</div>
+                    <div id="rStat" class="text-white font-bold font-mono">0.00</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script>
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
+    const scale = 40; 
+    const offset = 400;
+
+    const inputs = ['mIn', 'nIn', 'xIn', 'yIn'];
+    const elements = {};
+    inputs.forEach(id => elements[id] = document.getElementById(id));
+
+    function formatSign(val) {
+        // Tu sa deje tá mágia so znamienkami pre maturitu
+        if (val < 0) return `+ ${Math.abs(val).toFixed(1)}`;
+        if (val > 0) return `- ${val.toFixed(1)}`;
+        return `- 0`;
+    }
+
+    function draw() {
+        const m = parseFloat(elements.mIn.value);
+        const n = parseFloat(elements.nIn.value);
+        const x = parseFloat(elements.xIn.value);
+        const y = parseFloat(elements.yIn.value);
+
+        const dx = x - m;
+        const dy = y - n;
+        const rSq = dx*dx + dy*dy;
+        const r = Math.sqrt(rSq);
+
+        // Update Labels & HUD
+        document.getElementById('mVal').innerText = m;
+        document.getElementById('nVal').innerText = n;
+        document.getElementById('xVal').innerText = x;
+        document.getElementById('yVal').innerText = y;
+        document.getElementById('dxStat').innerText = dx.toFixed(2);
+        document.getElementById('dyStat').innerText = dy.toFixed(2);
+        document.getElementById('rStat').innerText = r.toFixed(2);
+
+        // Update Equation Display
+        document.getElementById('eqOutput').innerHTML = `
+            <span class="text-sky-400">(x ${formatSign(m)})²</span> + 
+            <span class="text-emerald-400">(y ${formatSign(n)})²</span> = 
+            <span class="text-white">${rSq.toFixed(2)}</span>
+            <div class="mt-2 text-xs text-zinc-500">
+                Pytagoras: ${dx.toFixed(2)}² + ${dy.toFixed(2)}² = ${r.toFixed(2)}²
+            </div>
+        `;
+
+        ctx.clearRect(0, 0, 800, 800);
+        
+        // 1. Grid
+        ctx.strokeStyle = '#18181b';
+        ctx.lineWidth = 1;
+        for(let i=0; i<=800; i+=scale) {
+            ctx.beginPath(); ctx.moveTo(i, 0); ctx.lineTo(i, 800); ctx.stroke();
+            ctx.beginPath(); ctx.moveTo(0, i); ctx.lineTo(800, i); ctx.stroke();
+        }
+
+        // 2. Axes
+        ctx.strokeStyle = '#3f3f46';
+        ctx.lineWidth = 2;
+        ctx.beginPath(); ctx.moveTo(400, 0); ctx.lineTo(400, 800); ctx.stroke();
+        ctx.beginPath(); ctx.moveTo(0, 400); ctx.lineTo(800, 400); ctx.stroke();
+
+        // 3. The Circle
+        ctx.strokeStyle = 'rgba(255, 255, 255, 0.1)';
+        ctx.lineWidth = 2;
+        ctx.beginPath();
+        ctx.arc(offset + m*scale, offset - n*scale, r*scale, 0, Math.PI*2);
+        ctx.stroke();
+
+        // 4. Pythagorean Triangle
+        // Horizontal (dx)
+        ctx.setLineDash([4, 4]);
+        ctx.strokeStyle = '#38bdf8';
+        ctx.lineWidth = 2;
+        ctx.beginPath();
+        ctx.moveTo(offset + m*scale, offset - n*scale);
+        ctx.lineTo(offset + x*scale, offset - n*scale);
+        ctx.stroke();
+
+        // Vertical (dy)
+        ctx.strokeStyle = '#10b981';
+        ctx.beginPath();
+        ctx.moveTo(offset + x*scale, offset - n*scale);
+        ctx.lineTo(offset + x*scale, offset - y*scale);
+        ctx.stroke();
+        ctx.setLineDash([]);
+
+        // Hypotenuse (r)
+        ctx.strokeStyle = '#ffffff';
+        ctx.lineWidth = 3;
+        ctx.beginPath();
+        ctx.moveTo(offset + m*scale, offset - n*scale);
+        ctx.lineTo(offset + x*scale, offset - y*scale);
+        ctx.stroke();
+
+        // 5. Nodes
+        ctx.fillStyle = '#38bdf8'; // S
+        ctx.beginPath(); ctx.arc(offset + m*scale, offset - n*scale, 6, 0, Math.PI*2); ctx.fill();
+        ctx.fillStyle = '#ffffff'; // X
+        ctx.beginPath(); ctx.arc(offset + x*scale, offset - y*scale, 6, 0, Math.PI*2); ctx.fill();
+        
+        ctx.font = '12px monospace';
+        ctx.fillStyle = '#38bdf8';
+        ctx.fillText(`S[${m}, ${n}]`, offset + m*scale + 10, offset - n*scale - 10);
+        ctx.fillStyle = '#ffffff';
+        ctx.fillText(`X[${x.toFixed(1)}, ${y.toFixed(1)}]`, offset + x*scale + 10, offset - y*scale - 10);
+    }
+
+    inputs.forEach(id => elements[id].addEventListener('input', draw));
+    draw();
+</script>
+</body>
+</html>
