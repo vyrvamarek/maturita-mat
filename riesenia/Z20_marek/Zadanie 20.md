@@ -159,3 +159,4 @@ Svoje tvrdenia odôvodnite.
 	   * $V=1\cdot 2$
 	   * $V=2$<br>
 	![[XYGFBC.png|350]]
+
