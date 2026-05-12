@@ -46,7 +46,14 @@ $\frac{o}{2} > t$
 
 ### **3.** Daná je kocka ABCDEFGH tak, že $A[2; 0; 0]$, $B[2; 2; 0]$, $C[0; 2; 0]$. Určte súradnice ostatných vrcholov kocky, vypočítajte:
 
+![[IMG_20260513_003136925.jpg]]
 ### * vzdialenosť bodov S, D, ak S je stred úsečky AB
+
+![[Pasted image 20260513003442.png]]
 ### * vzdialenosť bodu H od telesovej uhlopriečky, ktorá ním neprechádza.
 
+![[IMG_20260513_003145954.jpg]]
 ### Ako sa zmenia súradnice vrcholov kocky, ak $A[0;0;0]$
+
+
+![[IMG_20260513_003151721.jpg]]

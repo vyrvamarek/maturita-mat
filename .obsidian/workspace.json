@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "teoria/Základy Matematiky.md",
+                "file": "riesenia/Z25_misko/Z25_misko.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Základy Matematiky"
+              "title": "Z25_misko"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -197,35 +198,40 @@
       "bases:Create new base": false
     }
   },
-  "active": "bb8eaee97b4e8341",
+  "active": "42b1b008f174d96f",
   "lastOpenFiles": [
-    "riesenia/Misko/Z25_misko/Z25_misko.md",
-    "riesenia/Misko/Z25_misko",
-    "riesenia/Misko",
     "teoria/Základy Matematiky.md",
-    "Untitled.md",
-    "Untitled 1",
-    "Untitled",
     "riesenia/Z25_misko/Z25_misko.md",
-    "Pasted image 20260512194300.png",
-    "Pasted image 20260512194206.png",
-    "riesenia/Z25_misko/pomocny.html",
-    "riesenia/Misko/pomocny.html",
+    "IMG_20260513_003151721.jpg",
+    "IMG_20260513_003145954.jpg",
+    "Pasted image 20260513003442.png",
+    "IMG_20260513_003136925.jpg",
+    "riesenia/Z25_matej_dokaz/Zadanie 25.md",
+    "riesenia/Z25_matej_dokaz/Z25_dôkaz.svg",
+    "riesenia/Z16_marek/Zadanie 16.md",
+    "riesenia/svg/kruzicky.ai",
+    "riesenia/svg/U20kuzkytotozne.svg",
+    "riesenia/svg/U20kruhakruh.gif",
+    "riesenia/svg/U15priklad.svg",
+    "riesenia/svg/U15konst.png",
+    "riesenia/svg/U15f-1.png",
+    "riesenia/Z25_matej_dokaz",
+    "riesenia/Z21-30_pato_bezteorie",
+    "riesenia/Z20_marek/klm.html",
+    "riesenia/Z16_marek",
+    "riesenia/Z15_marek/Zadanie 15.pdf",
+    "riesenia/Z15_marek/Zadanie 15.md",
+    "riesenia/Z15_marek",
+    "riesenia/Z12_jfk/12.md",
+    "riesenia/Z12_jfk",
+    "riesenia/Z04_mari/Zadanie 04.pdf",
+    "riesenia/Z04_mari",
+    "riesenia/Z01_baska/Zadanie 01.md",
+    "riesenia/Misko/Z25_misko/Z25_misko.md",
+    "Untitled.md",
     "zadania/zadania.md",
     "riesenia/z+r_misko.md",
-    "riesenia/Z25_misko",
     "riesenia/Z20_marek/Zadanie 20.md",
-    "riesenia/Z20_marek/Zadanie 20.pdf",
-    "riesenia/Z20_marek/TeorDat_Z843.gif",
-    "riesenia/Z20_marek/vysekodsek.html",
-    "riesenia/svg/TeorDat_Z843.gif",
-    "riesenia/TeorDat_Z843.gif",
-    "riesenia/svg/XYGFBC.png",
-    "riesenia/svg/geogebra-export-4.png",
-    "riesenia/svg/XYGFA.png",
-    "riesenia/svg/geogebra-export-3.png",
-    "riesenia/svg/U20XYGFC.png",
-    "teoria/~$T opakovanie - planimetria.docx",
     "teoria/Kombinatorika, Pravdepodobnost, Statistika.md",
     "teoria/Planimetria.md",
     "Základy Matematiky.md",

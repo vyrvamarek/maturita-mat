@@ -6,5 +6,9 @@
     "margin": "0",
     "downscalePercent": 100
   },
+<<<<<<< HEAD
   "spellcheck": false
+=======
+  "alwaysUpdateLinks": true
+>>>>>>> 7e621ae0946b53bc25c814290dac5d10cd53b1b1
 }

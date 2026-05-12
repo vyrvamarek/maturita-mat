@@ -81,9 +81,15 @@ Svoje tvrdenia odôvodnite.
 		<br>
 	4. Vzájomná poloha dvoch kružníc (už nevládzem)
 		
-		![[TeorDat_Z843.gif]]
+		![[/riesenia/svg/U20kruhakruh.gif]]
 		
-	5. Kruhový výsek
+		![[U20kuzkytotozne.svg]]
+		* kružnice sú totožné
+		* sú sústredné a majú rovnaký polomer
+		* majú nekonečno veľa spoločných bodov:
+			* $k_1\cap k_2=k_1$
+			* $k_1\equiv k_2$<br>
+	1. Kruhový výsek
 	   
 	   * Časť kruhu ohraničená 2 polomermi a príslušným oblúkom
 	   * Definícia cez množiny bodov:
@@ -153,3 +159,4 @@ Svoje tvrdenia odôvodnite.
 	   * $V=1\cdot 2$
 	   * $V=2$<br>
 	![[XYGFBC.png|350]]
+
