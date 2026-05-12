@@ -4,39 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "bf748ae25187ef27",
+        "id": "7a6de64ffdcfa11e",
         "type": "tabs",
         "children": [
           {
-            "id": "14caaab2249530df",
+            "id": "bb8eaee97b4e8341",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "riesenia/Z20_marek/Zadanie 20.md",
+                "file": "riesenia/Z25_misko/Z25_misko.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Zadanie 20"
+              "title": "Z25_misko"
             }
           },
           {
-            "id": "4676fabdfd24c5cc",
+            "id": "42b1b008f174d96f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "riesenia/Z20_marek/Zadanie 20.md",
+                "file": "teoria/Základy Matematiky.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Zadanie 20"
+              "title": "Základy Matematiky"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 372.5
   },
   "right": {
     "id": "2e5050d04da2920d",
@@ -198,8 +197,24 @@
       "bases:Create new base": false
     }
   },
-  "active": "4676fabdfd24c5cc",
+  "active": "bb8eaee97b4e8341",
   "lastOpenFiles": [
+    "riesenia/Misko/Z25_misko/Z25_misko.md",
+    "riesenia/Misko/Z25_misko",
+    "riesenia/Misko",
+    "teoria/Základy Matematiky.md",
+    "Untitled.md",
+    "Untitled 1",
+    "Untitled",
+    "riesenia/Z25_misko/Z25_misko.md",
+    "Pasted image 20260512194300.png",
+    "Pasted image 20260512194206.png",
+    "riesenia/Z25_misko/pomocny.html",
+    "riesenia/Misko/pomocny.html",
+    "zadania/zadania.md",
+    "riesenia/z+r_misko.md",
+    "riesenia/Z25_misko",
+    "riesenia/Z20_marek/Zadanie 20.md",
     "riesenia/Z20_marek/Zadanie 20.pdf",
     "riesenia/Z20_marek/TeorDat_Z843.gif",
     "riesenia/Z20_marek/vysekodsek.html",
@@ -210,24 +225,11 @@
     "riesenia/svg/XYGFA.png",
     "riesenia/svg/geogebra-export-3.png",
     "riesenia/svg/U20XYGFC.png",
-    "riesenia/svg/geogebra-export-2.png",
-    "riesenia/svg/U20kocka.png",
     "teoria/~$T opakovanie - planimetria.docx",
-    "riesenia/vysekodsek.html",
-    "zadania/zadania.md",
-    "riesenia/Z20_marek/Zadanie 20.md",
-    "teoria/Základy Matematiky.md",
     "teoria/Kombinatorika, Pravdepodobnost, Statistika.md",
     "teoria/Planimetria.md",
-    "teoria/MAT opakovanie - planimetria.docx",
-    "teoria/MAT opakovanie - kombinatorika, pravdepodobnosť, štatistika.docx",
-    "teoria/MAT opakovanie - Základy matematiky.docx",
-    "teoria",
     "Základy Matematiky.md",
     "Planimetria.md",
-    "MAT opakovanie - planimetria.docx",
-    "MAT opakovanie - kombinatorika, pravdepodobnosť, štatistika.docx",
-    "MAT opakovanie - Základy matematiky.docx",
     "Kombinatorika, Pravdepodobnost, Statistika.md",
     "riesenia/Zadanie 25.md",
     "geogebra test.md"
