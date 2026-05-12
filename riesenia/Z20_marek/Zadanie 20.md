@@ -24,7 +24,7 @@ Svoje tvrdenia odôvodnite.
 1. Definície
 	1. Kruh
 		
-		![[riesenia/svg/kruh.svg|250]]
+		![[riesenia/svg/U20kruh.svg|250]]
 		
 		$K(S,r)=\{ X\in \rho ;\:|SX|\le r\}$
 		$r\in R,r>0$
@@ -37,7 +37,7 @@ Svoje tvrdenia odôvodnite.
 		
 	2. Kružnica
 		
-		![[kruznica.svg|250]]
+		![[U20kruznica.svg|250]]
 		
 		$k(S,r)=\{ X\in \rho ;\;|SX|=r \}$
 		$r\in R,r>0$
@@ -50,7 +50,7 @@ Svoje tvrdenia odôvodnite.
 		
 	3. Vzájomná poloha priamky a kružnice
 		
-		![[priamkakruznica.svg|600]]
+		![[U20priamkakruznica.svg|600]]
 		
 		Analyticky riešime vzájomnú polohu priamky a kružnice sústavou rovníc
 		
@@ -68,7 +68,7 @@ Svoje tvrdenia odôvodnite.
 		
 		Taktiež si môžeme vzájomné polohy zadefinovať podľa pomeru priamky k polomeru:
 		
-		![[priamkakruznica2.svg|600]]
+		![[U20priamkakruznica2.svg|600]]
 		
 		Následne to vieme použiť aj v analytike. Použijeme **vzorec na výpočet vzdialenosti bodu od priamky v rovine**
 		$$|Mp|=\frac{|am_1+bm_2+c|}{\sqrt{a^2+b^2}}$$
@@ -96,35 +96,28 @@ Svoje tvrdenia odôvodnite.
 	    $$Odsek=K(S,r)\cap polrovina(A,B)$$
 
 2. Parita funkcií
-	* Funkcia môže byť párna, nepárna alebo ani jedno
-	* $f(-x)=f(x)$ - funkcia je párna
-	* $f(-x)=-f(x)$ - funkcia je nepárna
-	* ak neplatí ani jedno, funkcia nieje ani párna, ani nepárna
-	$$f:y=\frac{4x}{x^2-4}$$
-	Je párna?
-	* $f(-x)=f(x)$
-	* $f(-1)=f(1)$
-	* $\frac{4}{3}\neq -\frac{4}{3}$
+	* O parite funkcie môžeme hovoriť iba ak spĺňa 2 podmienky:
+		1. Súmernosť definičného oboru
+		2. $f(-x)=f(x)$ - funkcia je párna
+			$f(-x)=-f(x)$ - funkcia je nepárna
 	
-	Je nepárna?
-	* $f(-x)=-f(x)$
-	* $f(-1)=-f(1)$
-	* $\frac{4}{3}=\frac{4}{3}$
+	* $$f:y=\frac{4x}{x^2-4}$$
+		1. $D(f)=R-\{ \pm 2\}$ - súmerný okolo osi $y$
+		2. Porovnanie funkčných hodnôt
+		   $$f(-x)\:=\:\frac{4\cdot (-x)}{(-x)^2-4}\:=\:\frac{-4x}{x^2-4}\:=\:-\frac{4x}{x^2-4}$$
+			$$-\frac{4x}{x^2-4}\: =\: f(-x)\:=\:-f(x)\;\Rightarrow funkcia\; je\; nepárna$$
+			
+			![[U20f.svg|250]]<br><br>
+	* $$g:y=(\cos x)-1$$
+		1. $D(g)=R$ - súmerný
+		2. Porovnanie funkčných hodnôt
+			$$g(-x)\:=\:(cos(-x))-1$$
+			$$DEF: cos(-x)=cos(x)$$
+			$$g(-x)\:=\:cos((-x))-1\:=\:cos(x)-1$$
+			$$cos(x)-1\:=\:g(-x)\:=\:g(x)\Rightarrow\;Funkcia\;je\;párna$$
 	
-	Funkcia $f$ nieje párna, ale je nepárna.
+		![[U20g.svg|250]]<br><br>
 	
-	![[U20f.svg|250]]
-	
-	$$g:y=(\cos x)-1$$
-	Je párna?
-	* $g(-x)=g(x)$
-	* $g(-\pi)=g(\pi)$
-	* $-2=-2$
-	
-	Funkcia $g$ je párna.
-	
-	![[U20g.svg|250]]
-
 3. Kocka ABCDEFGH
 	* telesová uhlopriečka $2\sqrt{3}$
 		* vzorec na výpočet telesovej uhlopriečky = $a\sqrt{3}$
