@@ -325,7 +325,7 @@ $$f: y = -4x + 7$$$$g: y = \cos(\frac{\pi}{4} - x)$$$$h: y = |x^5| - 11$$
 * vzdialenosť bodov S, D, ak S je stred úsečky AB
 * vzdialenosť bodu H od telesovej uhlopriečky, ktorá ním neprechádza.
 
-Ako sa zmenia súradnice vrcholov kocky, ak $A[0;0;0]$
+Ako sa zmenia súradnice vrcholov kocky, ak $A[0;0;0]$ 
 ## Maturitné zadanie 26
 
 **1.** Definuj lineárnu lomenú funkciu. Na konkrétnom príklade určte $D(f)$, $H(f)$ a popíšte, ktoré z nasledujúcich vlastností vaša funkcia spĺňa: či je prostá, monotónna, má maximum alebo minimum, je ohraničená.
