@@ -81,7 +81,7 @@ Svoje tvrdenia odôvodnite.
 		<br>
 	4. Vzájomná poloha dvoch kružníc (už nevládzem)
 		
-		![[TeorDat_Z843.gif]]
+		![[/riesenia/svg/U20kruhakruh.gif]]
 		
 		![[U20kuzkytotozne.svg]]
 		* kružnice sú totožné
