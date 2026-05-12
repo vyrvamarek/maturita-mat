@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Geometrická konštrukcia - Rovnostranný trojuholník</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/jsxgraph/distrib/jsxgraph.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jsxgraph/distrib/jsxgraphcore.js"></script>
+    <style>
+        body { font-family: sans-serif; display: flex; flex-direction: column; align-items: center; background: #f0f2f5; }
+        #box { width: 600px; height: 500px; background-color: white; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .controls { margin: 20px; padding: 15px; background: white; border-radius: 8px; max-width: 600px; }
+        h3 { margin-top: 0; color: #1a73e8; }
+    </style>
+</head>
+<body>
+
+<div class="controls">
+    <h3>Konštrukcia trojuholníka ABC</h3>
+    <p><b>m (modrá):</b> Os súmernosti (obsahuje ťažnicu $t_c$).<br>
+       <b>k (čierna):</b> Priamka pre vrchol A. | <b>l (čierna):</b> Priamka pre vrchol B.<br>
+       <b>k' (prerušovaná):</b> Obraz priamky k podľa osi m. Bod B je priesečník l a k'.</p>
+</div>
+
+<div id="box" class="jxgbox"></div>
+
+<script type="text/javascript">
+    const board = JXG.JSXGraph.initBoard('box', {
+        boundingbox: [-10, 10, 10, -10],
+        axis: true,
+        showCopyright: false,
+        keepaspectratio: true
+    });
+
+    // 1. Priamka m (pevná os súmernosti - môžeme ju definovať dvoma bodmi)
+    var m1 = board.create('point', [-5, 0], {visible: false});
+    var m2 = board.create('point', [5, 0], {visible: false});
+    var m = board.create('line', [m1, m2], {strokeColor: '#1a73e8', name: 'm', withLabel: true, strokeWidth: 3});
+
+    // 2. Priamka k (rovnobežná s m) - používateľ môže meniť jej vzdialenosť
+    var pk1 = board.create('point', [-5, 4], {name: 'k_vzdialenost', size: 2, color: 'black'});
+    var k = board.create('parallel', [m, pk1], {strokeColor: 'black', name: 'k', withLabel: true});
+
+    // 3. Priamka l (rôznobežná) - používateľ môže meniť jej sklon
+    var pl1 = board.create('point', [2, -5], {name: 'l_bod1', size: 2, color: 'gray'});
+    var pl2 = board.create('point', [-2, 5], {name: 'l_bod2', size: 2, color: 'gray'});
+    var l = board.create('line', [pl1, pl2], {strokeColor: 'black', name: 'l', withLabel: true});
+
+    // 4. Konštrukcia obrazu k'
+    var k_prime = board.create('reflection', [k, m], {dash: 2, strokeColor: 'gray', name: "k'"});
+
+    // 5. Nájdenie vrcholu B (priesečník l a k')
+    var B = board.create('intersection', [l, k_prime, 0], {name: 'B', color: '#d93025', size: 4});
+
+    // 6. Nájdenie vrcholu A (obraz B podľa m - musí ležať na k)
+    var A = board.create('reflection', [B, m], {name: 'A', color: '#d93025', size: 4});
+
+    // 7. Výpočet vrcholu C
+    // Stred AB
+    var S = board.create('midpoint', [A, B], {name: 'S', size: 1, visible: false});
+    
+    // Smerový vektor výšky (kolmica na AB, čo je v našom prípade priamka m)
+    // Vzdialenosť |AB|
+    var distAB = function() { return A.Dist(B); };
+    // Výška v rovnostrannom trojuholníku: v = a * sqrt(3)/2
+    var height = function() { return distAB() * Math.sqrt(3) / 2; };
+
+    // Bod C leží na m vo vzdialenosti height od S
+    var C = board.create('point', [
+        function() {
+            var dir = (A.X() < B.X()) ? 1 : -1; 
+            // Pre jednoduchosť využijeme geometrickú vlastnosť, že ABC je rovnostranný
+            // Rotácia bodu B okolo A o 60 stupňov
+            var angle = Math.PI / 3;
+            var x = A.X() + (B.X() - A.X()) * Math.cos(angle) - (B.Y() - A.Y()) * Math.sin(angle);
+            return x;
+        },
+        function() {
+            var angle = Math.PI / 3;
+            var y = A.Y() + (B.X() - A.X()) * Math.sin(angle) + (B.Y() - A.Y()) * Math.cos(angle);
+            return y;
+        }
+    ], {name: 'C', color: '#d93025', size: 4});
+
+    // 8. Vykreslenie trojuholníka
+    var poly = board.create('polygon', [A, B, C], {
+        fillColor: '#e8f0fe',
+        fillOpacity: 0.5,
+        strokeColor: '#1a73e8',
+        strokeWidth: 2
+    });
+
+</script>
+</body>
+</html>
